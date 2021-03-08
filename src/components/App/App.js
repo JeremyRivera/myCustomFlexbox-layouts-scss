@@ -1,9 +1,14 @@
 import React from "react";
-import Tile from "../Tile/index";
+import FirstLayout from "../FirstLayout/FirstLayout";
+import SecondLayout from "../SecondLayout/SecondLayout";
 import "./App.scss";
 
 function App() {
-  return <Tile />;
+  return (
+    <>
+      <SecondLayout />
+    </>
+  );
 }
 
 export default App;

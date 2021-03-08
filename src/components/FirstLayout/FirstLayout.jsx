@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Tile.scss";
+import "./FirstLayout.scss";
 
-const Tile = () => {
+const FirstLayout = () => {
     return (
         <div className="container">
             <div className="block-1">
@@ -23,4 +23,4 @@ const Tile = () => {
     )
 };
 
-export default Tile;
+export default FirstLayout;
