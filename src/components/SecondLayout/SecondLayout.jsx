@@ -3,11 +3,11 @@ import "./SecondLayout.scss";
 
 const SecondLayout = () => {
     return (
-        <div className="container">
-            <div className="item-1">1</div>
-            <div className="item-2">2</div>
-            <div className="item-3">3</div>
-            <div className="item-4">4</div>
+        <div className="container2">
+            <div className="item-1">Home</div>
+            <div className="item-2">About</div>
+            <div className="item-3">Services</div>
+            <div className="item-4">Contact</div>
         </div>
     )
 };
